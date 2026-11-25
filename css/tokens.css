@@ -1,0 +1,54 @@
+:root {
+  color-scheme: light;
+
+  /* Official QADHA brand palette */
+  --qadha-forest: #1F4A36;
+  --qadha-soft-sage: #A8B8A0;
+  --qadha-blush: #E8C4B8;
+  --qadha-linen: #FAF0EA;
+  --qadha-taupe: #B8A99A;
+  --qadha-deep-sage: #7A8E72;
+  --qadha-ink: #30362F;
+  --qadha-paper: #FFFDFC;
+
+  /* Semantic colors */
+  --qadha-action: var(--qadha-forest);
+  --qadha-action-hover: #173C2B;
+  --qadha-text: var(--qadha-ink);
+  --qadha-text-muted: #5F695F;
+  --qadha-surface: var(--qadha-paper);
+  --qadha-background: var(--qadha-linen);
+  --qadha-focus: var(--qadha-forest);
+  --qadha-danger: #9A4F47;
+  --qadha-line: rgba(31, 74, 54, .18);
+
+  /* Typography foundation. Local font files can be added without changing components. */
+  --qadha-font-display: "Alexandria", "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+  --qadha-font-body: "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif;
+  --qadha-font-latin: "Manrope", "Segoe UI", Arial, sans-serif;
+  --qadha-text-xs: .75rem;
+  --qadha-text-sm: .875rem;
+  --qadha-text-md: 1rem;
+  --qadha-text-lg: 1.125rem;
+  --qadha-text-xl: 1.5rem;
+  --qadha-text-2xl: 2rem;
+  --qadha-text-hero: clamp(3.25rem, 6.5vw, 5.625rem);
+
+  /* Spacing and shape */
+  --qadha-space-1: .25rem;
+  --qadha-space-2: .5rem;
+  --qadha-space-3: .75rem;
+  --qadha-space-4: 1rem;
+  --qadha-space-5: 1.5rem;
+  --qadha-space-6: 2rem;
+  --qadha-space-7: 3rem;
+  --qadha-radius-sm: .75rem;
+  --qadha-radius-md: 1rem;
+  --qadha-radius-lg: 1.625rem;
+  --qadha-radius-scene: 2.25rem;
+  --qadha-shadow-soft: 0 12px 34px rgba(31, 74, 54, .10);
+  --qadha-shadow-scene: 0 28px 70px rgba(31, 74, 54, .16);
+  --qadha-control-min: 44px;
+  --qadha-content-max: 1260px;
+}
+
