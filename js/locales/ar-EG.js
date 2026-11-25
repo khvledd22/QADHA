@@ -1,0 +1,71 @@
+(function () {
+  const Q = (window.Qadha = window.Qadha || {});
+  Q.i18n.register("ar-EG", {
+    meta: { title: "قدّها | عالم المغامرة المالية", description: "قدّها — عالم مغامرات مالية تفاعلي تتعلمي فيه باللعب والاستكشاف." },
+    brand: { alt: "شعار قدّها الرسمي", subtitle: "QADHA ADVENTURE" },
+    language: { label: "اختيار اللغة", arabic: "العربية", english: "English", changed: "تم تغيير اللغة" },
+    welcome: {
+      about: "إيه هي قدّها؟",
+      kicker: "مغامرتك المالية بتبدأ هنا",
+      line1: "فلوسك.", line2: "اختياراتك.", line3: "مغامرتك.",
+      description: "ادخلي عالم لطيف مليان ألعاب وحكايات ومهام تساعدك تفهمي الميزانية والادخار والأمان المالي من غير محاضرات.",
+      start: "يلا نبدأ المغامرة", demo: "وضع العرض السريع",
+      trustGames: "ألعاب حقيقية", trustWorld: "عالم آمن ولطيف", trustVirtual: "أموال افتراضية فقط",
+      luma: "أنا لوما! مستنياكي",
+      featureRunTitle: "اجري واتعلمي", featureRunText: "اتحركي واجمعي النجوم وابعدي عن فخاخ الصرف.",
+      featureMysteryTitle: "حلي الأسرار", featureMysteryText: "اكتشفي الرسائل المشبوهة وافتحي الطريق الآمن.",
+      featureGoalTitle: "كبّري هدفك", featureGoalText: "طابقي الرموز وخلي حديقتك تنمو مع كل قرار.",
+      disclaimer: "قدّها نموذج تعليمي. كل الأرصدة والمكافآت والأنشطة المالية محاكاة فقط.",
+    },
+    onboarding: {
+      skip: "تخطي للعرض", hello: "أهلًا!", guideTitle: "أنا لوما، دليلتك في عالم قدّها",
+      guideText: "هنزور خمس مناطق، وكل منطقة فيها مهارة مالية جديدة. مفيش امتحان، كل اختيار فرصة نجرب ونتعلم.",
+      meetHero: "اتعرفي على بطلتك", chooseKicker: "اختاري بطلتك", chooseTitle: "مين هتدخل المغامرة؟",
+      chooseText: "كل الشخصيات أصلية، وتقدري تغيري اختيارك والملابس بعدين.", choose: "اختاري", selected: "اختيارك ✓",
+      continue: "حلو! كمّلي", finalKicker: "آخر خطوة صغيرة", finalTitle: "ننادي بطلتنا بإيه؟",
+      finalText: "اسم مستعار كفاية. مش بنطلب أي بيانات شخصية أو مالية.", nickname: "الاسم المستعار",
+      nicknameExample: "مثال: نور", goal: "المغامرة اللي مهتمة بيها", openMap: "افتحي الخريطة",
+      goals: ["تنظيم المصاريف", "تعلم الادخار", "الأمان من الاحتيال", "فهم الخدمات الرقمية"],
+    },
+    nav: { home: "الرئيسية", adventure: "المغامرة", minis: "ألعاب صغيرة", learn: "اتعلمي", progress: "تقدمي", profile: "حسابي" },
+    shell: {
+      stars: "نجوم الادخار", xp: "نقاط الخبرة", maximum: "أعلى مستوى", navigation: "التنقل الرئيسي",
+      profile: "افتحي حساب البطلة", levelProgress: "تقدم المستوى", remaining: "{count} XP للمستوى التالي",
+      levels: ["مستكشفة مبتدئة", "موفّرة ذكية", "بطلة الميزانية", "محققة الأمان", "بطلة قدّها"],
+    },
+    home: {
+      kicker: "صباح المغامرة", greeting: "أهلًا يا {name}!", defaultName: "بطلة", intro: "رحلتك واضحة، ومهمتك اليومية جاهزة من غير ضغط.",
+      overview: "نظرة سريعة", xpLabel: "XP مكتسبة", starsLabel: "نجوم", worldsLabel: "مناطق مفتوحة",
+      dailyKicker: "مهمة النهارده · +{xp} XP", dailyProgress: "التقدم {progress} · من غير عقاب لو فاتتك.",
+      dailyDone: "كملتي المهمة! بكرة لوما هتجيب مغامرة جديدة.", startMission: "ابدئي المهمة", missionDone: "تمت المهمة ✓",
+      continueKicker: "كمّلي من مكانك", continueDefaultTitle: "Budget Dash", continueDefaultText: "ابدئي أول مستوى في بلدة الميزانية.", openWorld: "افتحي المنطقة",
+      mapKicker: "خريطة قدّها", mapTitle: "اختاري وجهتك", fullMap: "الخريطة الكاملة",
+      quickKicker: "استراحة لطيفة", quickTitle: "أنشطة سريعة",
+      minisTitle: "5 ألعاب صغيرة", minisText: "من دقيقة إلى 3 دقايق",
+      learnTitle: "10 حكايات معرفة", learnText: "وأسئلة تفاعلية قصيرة",
+      labTitle: "مختبر التخطيط", labText: "ميزانية وهدف وجمعية",
+      progressTitle: "كنوزك وإنجازاتك", progressText: "{badges} أوسمة · {stars} نجوم",
+      missions: {
+        "mission-game": "كمّلي مستوى قصير", "mission-clues": "اكتشفي علامتين مشبوهتين", "mission-match": "اعملي 3 مطابقات",
+        "mission-term": "اتعلمي مصطلح جديد", "mission-lesson": "كمّلي حكاية معرفة",
+      },
+    },
+    worlds: {
+      budget: { name: "بلدة الميزانية", description: "اجري وسط البلدة، اجمعي اختيارات ذكية، وابعدي عن فخاخ الصرف." },
+      scam: { name: "مدينة الخداع", description: "حلي المتاهة، افحصي الرسائل، وافتحي الطريق الآمن." },
+      savings: { name: "حديقة الأهداف", description: "طابقي الرموز وخلي حديقتك تكبر مع عادة الادخار." },
+      plaza: { name: "ساحة الخدمات", description: "زوري المحطات واكتشفي إزاي تقارني الخدمات المالية." },
+      island: { name: "جزيرة التحدي", description: "مهمة نهائية تجمع الميزانية والأمان والادخار." },
+      ready: "جاهزة للاستكشاف", completed: "{count} مراحل مكتملة", locked: "{xp} XP للفتح", lockedLabel: "مقفولة حتى {xp} XP",
+    },
+    avatars: { noura: "نورا", salma: "سلمى", mariam: "مريم", rana: "رانا" },
+    settings: {
+      close: "إغلاق", kicker: "إعدادات الراحة", title: "خلي المغامرة مناسبة ليكي",
+      sound: "المؤثرات الصوتية", soundHint: "أصوات الحركة والمكافآت",
+      music: "موسيقى هادية", musicHint: "اختيارية ومن غير تشغيل تلقائي",
+      volume: "مستوى الصوت", reduceMotion: "تقليل الحركة", reduceMotionHint: "يقلل الانتقالات والتأثيرات",
+      reset: "إعادة تجربة العرض",
+    },
+  }, { lang: "ar", dir: "rtl", label: "العربية المصرية" });
+})();
+

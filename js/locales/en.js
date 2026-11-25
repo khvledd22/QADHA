@@ -1,0 +1,71 @@
+(function () {
+  const Q = (window.Qadha = window.Qadha || {});
+  Q.i18n.register("en", {
+    meta: { title: "QADHA | The Financial Adventure World", description: "QADHA is an interactive financial-literacy adventure built around games, stories and exploration." },
+    brand: { alt: "Official QADHA logo", subtitle: "QADHA ADVENTURE" },
+    language: { label: "Choose language", arabic: "العربية", english: "English", changed: "Language changed" },
+    welcome: {
+      about: "What is QADHA?",
+      kicker: "Your financial adventure starts here",
+      line1: "Your money.", line2: "Your choices.", line3: "Your adventure.",
+      description: "Enter a warm world of games, stories and missions that make budgeting, saving and financial safety easier to understand.",
+      start: "Start the adventure", demo: "Quick demo mode",
+      trustGames: "Real games", trustWorld: "A safe, welcoming world", trustVirtual: "Virtual money only",
+      luma: "I’m LUMA. I’ve been waiting for you!",
+      featureRunTitle: "Run and learn", featureRunText: "Move, collect stars and avoid impulsive-spending traps.",
+      featureMysteryTitle: "Solve mysteries", featureMysteryText: "Spot suspicious messages and discover the safe route.",
+      featureGoalTitle: "Grow your goal", featureGoalText: "Match tiles and watch your garden grow with every decision.",
+      disclaimer: "QADHA is an educational prototype. All balances, rewards and financial activities are simulated.",
+    },
+    onboarding: {
+      skip: "Skip to demo", hello: "Welcome!", guideTitle: "I’m LUMA, your guide through QADHA",
+      guideText: "We’ll visit five regions, each with a new financial skill. There are no exams—every choice is a chance to experiment and learn.",
+      meetHero: "Meet your hero", chooseKicker: "Choose your hero", chooseTitle: "Who is joining the adventure?",
+      chooseText: "Every character is original, and you can change your character and outfit later.", choose: "Choose", selected: "Selected ✓",
+      continue: "Great, continue", finalKicker: "One small final step", finalTitle: "What should we call your hero?",
+      finalText: "A nickname is enough. We never ask for personal or financial information.", nickname: "Nickname",
+      nicknameExample: "Example: Noor", goal: "What do you want to explore?", openMap: "Open the map",
+      goals: ["Organizing expenses", "Building a saving habit", "Staying safe from scams", "Understanding digital services"],
+    },
+    nav: { home: "Home", adventure: "Adventure", minis: "Mini-games", learn: "Learn", progress: "Progress", profile: "Profile" },
+    shell: {
+      stars: "Saving stars", xp: "Experience points", maximum: "Top level", navigation: "Primary navigation",
+      profile: "Open hero profile", levelProgress: "Level progress", remaining: "{count} XP to the next level",
+      levels: ["New Explorer", "Smart Saver", "Budget Hero", "Safety Detective", "QADHA Champion"],
+    },
+    home: {
+      kicker: "Adventure briefing", greeting: "Welcome back, {name}!", defaultName: "Explorer", intro: "Your route is clear and today’s mission is ready—without pressure.",
+      overview: "At a glance", xpLabel: "XP earned", starsLabel: "Stars", worldsLabel: "Open regions",
+      dailyKicker: "Today’s mission · +{xp} XP", dailyProgress: "Progress {progress} · No penalty if you miss it.",
+      dailyDone: "Mission complete! LUMA will bring a new one tomorrow.", startMission: "Start mission", missionDone: "Mission complete ✓",
+      continueKicker: "Continue your journey", continueDefaultTitle: "Budget Dash", continueDefaultText: "Start the first level in Budget Town.", openWorld: "Open region",
+      mapKicker: "QADHA map", mapTitle: "Choose your destination", fullMap: "View full map",
+      quickKicker: "A quick break", quickTitle: "Quick activities",
+      minisTitle: "5 mini-games", minisText: "One to three minutes each",
+      learnTitle: "10 learning stories", learnText: "Plus short interactive questions",
+      labTitle: "Planning lab", labText: "Budget, goal and group saving",
+      progressTitle: "Your rewards", progressText: "{badges} badges · {stars} stars",
+      missions: {
+        "mission-game": "Complete one short level", "mission-clues": "Find two suspicious signs", "mission-match": "Make three matches",
+        "mission-term": "Learn one new term", "mission-lesson": "Complete one learning story",
+      },
+    },
+    worlds: {
+      budget: { name: "Budget Town", description: "Run through town, collect smart choices and avoid spending traps." },
+      scam: { name: "Scam City", description: "Solve the maze, inspect suspicious messages and unlock the safe route." },
+      savings: { name: "Savings Garden", description: "Match symbols and grow your garden with every saving habit." },
+      plaza: { name: "Financial Plaza", description: "Visit the stations and learn how to compare financial services." },
+      island: { name: "Challenge Island", description: "A final mission combining budgeting, safety and saving." },
+      ready: "Ready to explore", completed: "{count} levels complete", locked: "Unlock at {xp} XP", lockedLabel: "Locked until {xp} XP",
+    },
+    avatars: { noura: "Noura", salma: "Salma", mariam: "Mariam", rana: "Rana" },
+    settings: {
+      close: "Close", kicker: "Comfort settings", title: "Make the adventure work for you",
+      sound: "Sound effects", soundHint: "Movement and reward sounds",
+      music: "Calm music", musicHint: "Optional and never autoplayed",
+      volume: "Volume", reduceMotion: "Reduce motion", reduceMotionHint: "Reduces transitions and motion effects",
+      reset: "Reset demo experience",
+    },
+  }, { lang: "en", dir: "ltr", label: "English" });
+})();
+
